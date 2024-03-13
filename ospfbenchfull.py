@@ -9,8 +9,8 @@ from mininet.log import setLogLevel
 def create_network(num_nodes=50):
     # Create Mininet instance
     net = Mininet(controller=RemoteController, switch=UserSwitch)
-    
-  
+    #
+    #c0 = net.addController('c0', controller=RemoteController, ip='127.0.0.1', port=6653)
     
     # Add switches and hosts
     switches = []
